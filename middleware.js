@@ -8,6 +8,4 @@ router.use(function(req, res, next){
     console.log("inside middleware");
     next();
 });
-
-
 module.exports = router;
